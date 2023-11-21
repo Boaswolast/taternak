@@ -1,0 +1,44 @@
+name: taternak_v12
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  google_sign_in: ^5.0.7
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Patrick Hand
+      fonts: 
+        - asset: assets/fonts/PatrickHandRegular.ttf
+          weight: 400
+    - family: Sonsie One
+      fonts: 
+        - asset: assets/fonts/SonsieOneRegular.ttf
+          weight: 400
+    - family: Pompiere
+      fonts: 
+        - asset: assets/fonts/PompiereRegular.ttf
+          weight: 400
+    - family: Passion One
+      fonts: 
+        - asset: assets/fonts/PassionOneRegular.ttf
+          weight: 400
+    - family: Poiret One
+      fonts: 
+        - asset: assets/fonts/PoiretOneRegular.ttf
+          weight: 400
